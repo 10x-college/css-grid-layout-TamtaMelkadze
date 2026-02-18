@@ -27,4 +27,10 @@
 -   **Images:** გამოიყენეთ დიზაინში მოცემული ფოტოები ან მსგავსი Placeholder სურათები (მაგალითად: [Unsplash](https://unsplash.com/) ან [Pexels](https://pexels.com/)).
 ----------
 
+**Screenshot**
+![Design Preview](./layout1scr.png) 
+![Design Preview](./layout2scr.png)
+![Design Preview](./layout3scr.png)
+
+
 **წარმატებები!**
