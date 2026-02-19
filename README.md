@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/F3KaL0CB)
 
 
 # 🎨 Photo Gallery Layouts (CSS Grid)
@@ -25,5 +26,11 @@
 -   **Commits:** მნიშვნელოვანია პროცესის ჩვენება. აკეთეთ ხშირი და აზრიანი "Commit"-ები (მაგ: `feat: add grid structure for layout 1`, `style: update spacing for gallery`).
 -   **Images:** გამოიყენეთ დიზაინში მოცემული ფოტოები ან მსგავსი Placeholder სურათები (მაგალითად: [Unsplash](https://unsplash.com/) ან [Pexels](https://pexels.com/)).
 ----------
+
+**Screenshot**
+![Design Preview](./layout1scr.png) 
+![Design Preview](./layout2scr.png)
+![Design Preview](./layout3scr.png)
+
 
 **წარმატებები!**

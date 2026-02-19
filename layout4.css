@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background-color: #ffffff;
+    
+}
+
+.lifestyle-layout {
+    /* margin-top: 53px;
+    margin-right: 15px; */
+    max-width: 1250px;
+    /* max-height: 768px; */
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    transform: translateX(50px);  
+}
+
+.main-split-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    transform: translateX(-50px);    
+}
+
+/* .divider {
+    background-color: #5f5d5d;
+    width: 2px;
+    max-height: 768px;
+} */
+
+
+
+.left-column {
+    display: grid;
+    grid-template-columns: repeat(3, 245px);
+    grid-template-rows: repeat(4, 163px);
+    /* padding: 10px; */
+    border-right: 1px solid #000;
+    gap: 10px 15px;
+    padding-right: 10px;
+    
+}
+
+.title, .subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 20%;
+    font-weight: 100;
+    font-family: 'Roboto';
+
+}
+
+.title {
+    grid-column: 1/4;
+    /* grid-area: 1/1/2/4; */
+    
+}
+
+.subtitle {
+    grid-column: 1/3;    
+}
+
+.item-top { 
+    grid-row: 2;
+    grid-column: 3; 
+}
+
+
+.item-middle { 
+    grid-row: 3;
+    grid-column: 2; 
+}
+
+.item-bottom { 
+    grid-row: 4;
+    grid-column: 1;
+    /* margin-left: -80px;  */
+    /* z-index: 10; */
+}
+
+
+.item-bottom-right { 
+    grid-row: 4;
+    grid-column: 3; 
+}
+
+
+.left-column figure img {
+    /* max-width:  260px; */
+    max-height:  163px;
+    box-shadow: 5px 4px 5px 0px #AC9D8D;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+}
+
+
+.right-column {
+    display: grid;
+    grid-template-columns: repeat(2, 245px);
+    grid-template-rows: repeat(4, 163px);
+    /* padding: 10px; */
+    gap: 10px 15px;
+    
+   
+}
+
+
+.item-right-1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+
+.item-right-2 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.item-right-3 {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+
+.item-right-5 {
+    grid-row: 4;
+    grid-column: 2;
+}
+
+
+.right-column figure img {
+    width: 100%;
+    box-shadow: 5px 4px 5px 0px #AC9D8D;
+    object-fit: cover;
+    display: block;
+    max-height: 163px;
+}
